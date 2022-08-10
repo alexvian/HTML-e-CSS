@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Mais exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Orientação Sexual</legend>
+            <input type="radio" name="ori" id="imasc">
+                <label for="imasc">Masculino</label><br>
+            <input type="radio" name="ori" id="ifem" checked>
+                <label for="ifem">Feminino</label><br>
+            <input type="radio" name="ori" id="iassex">
+                <label for="iassex">Assexuado</label><br>
+            <input type="radio" name="ori" id="inao">
+                <label for="inao">Prefiro não informar</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut">
+                <label for="ifut">Futebol</label><br>
+            <input type="checkbox" name="futam" id="ifutam">
+                <label for="ifutam">Futebol Americano</label> <br>
+            <input type="checkbox" name="tenis" id="itenis">
+                <label for="itenis">Tênis</label> <br>
+            <input type="checkbox" name="basquete" id="ibasquete">
+                <label for="ibasquete">Basquete</label> <br>
+            <input type="checkbox" name="f1" id="if1">
+                <label for="if1">Formula 1</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
